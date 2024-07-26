@@ -1,20 +1,17 @@
-package com.example.rqchallenge.employees;
+package com.example.rqchallenge.employees.model;
 
-import com.example.rqchallenge.employees.model.Employee;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.util.List;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class EmployeeResponse {
+public class SingleEmployeeResponse {
     private String status;
-    private List<Employee> data;
+    private Employee data;
 
     public String getStatus() {
         return status;
     }
 
-    public List<Employee> getData() {
+    public Employee getData() {
         return data;
     }
 }

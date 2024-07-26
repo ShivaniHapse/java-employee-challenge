@@ -1,6 +1,6 @@
 package com.example.rqchallenge.employees;
 
-import com.example.rqchallenge.employees.entity.Employee;
+import com.example.rqchallenge.employees.model.Employee;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,5 +31,8 @@ public interface IEmployeeController {
 
     @DeleteMapping("/{id}")
     ResponseEntity<String> deleteEmployeeById(@PathVariable String id);
+
+    @DeleteMapping("delete/{id}")
+    ResponseEntity<String> deleteEmployeeByIdAndReturnStatus(@PathVariable String id);
 
 }
