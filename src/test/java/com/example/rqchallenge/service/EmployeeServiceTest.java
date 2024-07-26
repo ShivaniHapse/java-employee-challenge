@@ -1,7 +1,7 @@
 package com.example.rqchallenge.service;
 
 import com.example.rqchallenge.RqChallengeApplication;
-import com.example.rqchallenge.employees.EmployeeResponse;
+import com.example.rqchallenge.employees.model.EmployeeResponse;
 import com.example.rqchallenge.employees.model.Employee;
 import com.example.rqchallenge.employees.model.EmployeeCreationResponse;
 import com.example.rqchallenge.employees.model.SingleEmployeeResponse;
@@ -24,7 +24,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 import static java.util.Objects.requireNonNull;
 import static org.junit.jupiter.api.Assertions.*;

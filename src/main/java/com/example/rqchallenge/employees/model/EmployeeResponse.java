@@ -1,6 +1,5 @@
-package com.example.rqchallenge.employees;
+package com.example.rqchallenge.employees.model;
 
-import com.example.rqchallenge.employees.model.Employee;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.example.rqchallenge.employees.service;
 
-import com.example.rqchallenge.employees.EmployeeResponse;
+import com.example.rqchallenge.employees.model.EmployeeResponse;
 import com.example.rqchallenge.employees.model.Employee;
 import com.example.rqchallenge.employees.model.EmployeeCreated;
 import com.example.rqchallenge.employees.model.EmployeeCreationResponse;

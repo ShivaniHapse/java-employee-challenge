@@ -1,6 +1,5 @@
 package com.example.rqchallenge.employees.controller;
 
-import com.example.rqchallenge.employees.IEmployeeController;
 import com.example.rqchallenge.employees.model.Employee;
 import com.example.rqchallenge.employees.service.EmployeeService;
 import org.slf4j.Logger;
